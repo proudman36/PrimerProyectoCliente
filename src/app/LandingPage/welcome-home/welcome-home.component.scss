@@ -1,0 +1,43 @@
+$azul_primario: #014464;
+$azul_claro:#44B5DA;
+#welcome{
+    text-align: center;
+    height:100%;
+    color:$azul_primario;
+    background: linear-gradient(180deg, $azul_claro 0%, rgba(68, 181, 218, 0) 100%);
+    font-size: 40px;;
+    p{
+        padding: 20px;
+    }
+}
+
+#introduction{
+    display:flex;
+    height: 600px;
+    background-image: url(../../../assets/Images/pexels-photoscom-93398.jpg);
+    background-size: 100% 600px;
+    background-repeat:no-repeat;
+    font-size: 40px;
+    p{
+        padding:20px;
+        color:white;
+        margin-top:280px;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 900px){
+    #welcome{
+        font-size: medium;
+    }
+    #introduction{
+        height:168px;
+        height: 229px;
+        background-size: 100%  229px;
+        font-size:16px;
+        p{
+            margin-top:90px;
+            margin-left:0;
+        }
+        
+    }
+}

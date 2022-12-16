@@ -1,0 +1,41 @@
+$azul_primario: #014464;
+$azul_claro:#44B5DA;
+.parent_container{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: $azul_primario;
+    color:white;
+}
+.container1{
+    margin-top:10px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.container2{
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.numbers{
+    display:flex;
+}
+.telephone{
+    display:flex;
+    flex-direction: column;
+    margin-right:20px;
+}
+.cellphone{
+    margin-left:20px;
+}
+@media screen and (max-width: 900px) {
+    .parent_container{
+        font-size:10px;
+    }
+    .telephone{
+        margin-right:5px;
+    }
+    .cellphone{
+        margin-left:5px;
+    }
+}

@@ -1,0 +1,35 @@
+.emmerre{
+    margin-top:50px;
+    margin-bottom:60px;
+    display:flex;
+    justify-content: space-around;
+}
+.emmerre1{
+    cursor: pointer;
+    img{
+        width:520px;
+        height: 800px;
+    }
+}
+.emmerre2{
+    cursor:pointer;
+    img{
+        width:520px;
+        height: 800px;
+    }
+}
+@media  screen and (max-width:900px) {
+    .emmerre1{
+        img{
+            width:130px;
+            height:200px;
+        }
+    }
+    .emmerre2{
+        img{
+            width:130px;
+            height:200px;
+        }
+    }
+    
+}
