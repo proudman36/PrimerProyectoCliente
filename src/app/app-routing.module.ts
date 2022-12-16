@@ -4,6 +4,7 @@ import { CarouselBrandsComponent } from './carousel-brands/carousel-brands.compo
 import { HeaderComponent } from './header/header.component';
 import { AboutUsComponent } from './LandingPage/about-us/about-us.component';
 import { EmmerreComponent } from './LandingPage/emmerre/emmerre.component';
+import { HomeComponent } from './LandingPage/home/home.component';
 import { CarouselsComponent } from './LandingPage/welcome-home/carousels/carousels.component';
 import { WelcomeHomeComponent } from './LandingPage/welcome-home/welcome-home.component';
 
@@ -13,7 +14,9 @@ const routes: Routes = [
   {path: "carousel",component:CarouselsComponent},
   {path: "about-us",component:AboutUsComponent},
   {path: "emmerre",component:EmmerreComponent},
-  {path: "brands",component:CarouselBrandsComponent}
+  {path: "brands",component:CarouselBrandsComponent},
+  {path:"",component:HomeComponent, pathMatch:"full"},
+  {path:"**",redirectTo:"/",pathMatch:"full"}
 ];
 
 @NgModule({

@@ -10,6 +10,7 @@ import { CarouselBrandsComponent } from './carousel-brands/carousel-brands.compo
 import { AboutUsComponent } from './LandingPage/about-us/about-us.component';
 import { EmmerreComponent } from './LandingPage/emmerre/emmerre.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './LandingPage/home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
     AboutUsComponent,
     EmmerreComponent,
     FooterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
