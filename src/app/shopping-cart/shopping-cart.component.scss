@@ -9,8 +9,10 @@ $azul_claro:#44B5DA;
     right:-100%;
     height:100vh;
     width:300px;
-    border-left:2px solid black;
+    border-left:2px solid #000000;
     transition:0.5s;
+    overflow: scroll;
+
     .exit{
         font-size:20px;
         display:flex;
