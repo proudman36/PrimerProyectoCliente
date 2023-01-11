@@ -4,34 +4,39 @@
         <div class="bars__menu">
             <span class="line1__bars-menu"></span>
             <span class="line2__bars-menu"></span>
-            <span class="line3__bars-menu"></span> 
+            <span class="line3__bars-menu"></span>
         </div>
         <ul class="horizontal-menu">
             <li><a href="#" class="horizontal">INICIO</a></li>
 
             <li>
-                <a  routerLink="/about-us" routerLinkActive="active" class="horizontal">¿QUIÉNES SOMOS?</a>
+                <a class="horizontal">¿QUIÉNES SOMOS?</a>
                 <ul class="vertical-menu">
-                    <li><a href="#">COMERCIAL</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a routerLink="/commercial" routerLinkActive="active">COMERCIAL</a></li>
+                    <li><a routerLink="/services" routerLinkActive="active">SERVICIOS</a></li>
                 </ul>
             </li>
 
             <li>
-                <a href="#" class="horizontal">EXPOSICIONES</a>
+                <a class="horizontal">EXPOSICIONES</a>
                 <ul class="vertical-menu">
-                    <li><a href="#">FERIAS</a></li>
+                    <li><a routerLink="fairs" routerLinkActive="active">FERIAS</a></li>
                 </ul>
             </li>
 
             <li>
-                <a href="#"class="horizontal">PRODUCTOS</a>
+                <a>PRODUCTOS</a>
                 <ul class="vertical-menu">
-                    <li><a href="#">CATEGORAS</a></li>
+                    <li><a routerLink="products" routerLinkActive="active" class="horizontal">CATEGORIAS</a></li>
                 </ul>
             </li>
 
-            <li><a href="#"class="horizontal">CONTÁCTENOS</a></li>
+            <li><a routerLink="contact" routerLinkActive="active" class="horizontal">CONTÁCTENOS</a></li>
         </ul>
+        <div class="shopping_cart">
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
     </nav>
+    
 </header>
+

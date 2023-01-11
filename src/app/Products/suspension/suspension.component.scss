@@ -1,0 +1,22 @@
+.grid_box{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    text-align: center;
+}
+.add-to-cart{
+    cursor:pointer
+}
+img{
+    width: 100px;
+    height:100px;
+}
+.parent_container{
+    margin-bottom:470px;
+}
+@media screen and (max-width:900px){
+    .grid_box{
+        grid-template-columns: auto auto;
+        gap:20px;
+    }
+}

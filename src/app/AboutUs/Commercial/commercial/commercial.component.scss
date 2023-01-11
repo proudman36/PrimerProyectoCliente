@@ -1,0 +1,13 @@
+$azul_primario: #014464;
+$azul_claro:#44B5DA;
+section{
+    background: linear-gradient(180deg, $azul_claro 0%, rgba(68, 181, 218, 0) 100%);
+    color:$azul_primario;
+    margin-bottom: 70px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

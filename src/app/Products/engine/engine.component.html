@@ -1,0 +1,14 @@
+<div class="parent_container">
+    <div class="parent_container">
+        <div class="grid_box">
+            <div class="product" *ngFor="let products of products">
+                <h4 class="product-title">{{products.name}}</h4>
+                <p class="product-price">{{products.price}}</p>
+                <img src="{{products.picture}}" class="image">
+
+                <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<app-shopping-cart></app-shopping-cart>

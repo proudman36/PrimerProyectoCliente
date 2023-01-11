@@ -82,6 +82,11 @@ nav{
 .horizontal-menu li:hover .vertical-menu{
     display: block;
 }
+.shopping_cart{
+    font-size: 25px;
+    cursor:pointer;
+}
+
 @media screen and (max-width: 900px){
     header{
         width:100%;

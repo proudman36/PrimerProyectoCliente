@@ -21,5 +21,15 @@ export class HeaderComponent implements OnInit {
       line3_bars.classList.toggle("active");
       horizontal_menu.classList.toggle("active");
     })
+    let cart = document.getElementsByClassName("shopping_cart")[0];
+    let exit = document.getElementsByClassName("exit")[0];
+    let container = document.getElementsByClassName("cart_container")[0];
+    console.log(container);
+    cart.addEventListener("click", cartActive=>{
+      container.classList.add("active");
+    })
+    exit.addEventListener("click", cartClose =>{
+      container.classList.remove("active");
+    })
   }
 }
