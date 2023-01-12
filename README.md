@@ -1,27 +1,14 @@
-# ProyectoAngularCliente
+##First Project for a Client
+A responsive web page was created for a real client called Mundo Kart Diesel, the web page is divided in more pages, every single page shows the client information about the business and, in some of them, the user could choose from a selection of products and add them to their cart, by pressing the buy button the user could go to a WhatsApp chat with the owners of the business and tell them that they want more information about the prouducts they are interested in buying.
+#Process of creation
+-A Backlog was created to organize the information about the project and to make it easy to know which procedures were: already done, in process, or waiting to be done.
+-A Figma design was made to show how the page was going to be created visualy and some functionalities the web page would have when the coding were on process.
+-An Angular project was created with all the folders necessary to make the project work.
+-There were components created to make the: home (Inicio), who are we? or about us (¿Quiénes somos?), expositions (Exposiciones), products (Productos) and contact us (Contáctenos) sections. The great majority of components were contained in a folder, with the exception of the shopping-cart component which was independent from all others.
+-Every component's HTML, SCSS and Typescript, were modified in order to create the aplication.
+#How does the code work?
+The home, who are we?, expositions and contact us, components, work like a basic HTML, SCSS and Typescript application, with the exception of the carousels, which are a little bit more complex. But the shopping-cart component and the products components, have code that enables them to work together and add items to the shopping-kart, remove them and change the quantity of a product. Everything that makes that happen was made with typescript code, that has sections dedicated to, show the cart, hide the cart, put a product in the cart, modify the quantity, add the quantities to a total, make it work with all products, etc..
+#What was delivered?
+A working application that has all the sections necessary to make a web page and a section of shopping that enables the client to add items to a cart and to send a message to the owner explaining the products the want to buy.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
